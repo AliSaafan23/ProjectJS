@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #008cba;
+  color: white;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+.header .nav h1 {
+  display: inline-block;
+}
+.header .nav ul {
+  display: inline-block;
+  margin-left: 100px;
+}
+.header .nav li {
+  display: inline-block;
+  margin-left: 70px;
+}
+.header .nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+.header .nav a.active {
+  color: #000000;
+}
+.header .nav {
+  margin-left: 70px;
+}
+
+.header .nav li i {
+  margin-left: 50px;
+}
+
+.header .nav li a:hover {
+  color: black;
+}

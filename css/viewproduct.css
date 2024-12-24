@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #008cba;
+  color: white;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+.header .nav h1 {
+  display: inline-block;
+}
+.header .nav ul {
+  display: inline-block;
+  margin-left: 100px;
+}
+.header .nav li {
+  display: inline-block;
+  margin-left: 70px;
+}
+.header .nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+.header .nav a.active {
+  color: #000000;
+}
+.header .nav {
+  margin-left: 70px;
+}
+
+.header .nav li i {
+  margin-left: 50px;
+}
+
+.header .nav li a:hover {
+  color: black;
+}
+
+/* //================================================================= */
+.container {
+  width: 100%;
+  height: 100%;
+  margin-top: 70px;
+  height: 750px;
+  text-align: center;
+}
+
+.container .serv {
+  width: 30%;
+  height: 70%;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.container .serv img {
+  width: 100%;
+  height: 100%;
+}
+.container .serv p {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.details {
+  background-color: #e3e6e9;
+}
+.details button {
+  margin-bottom: 20px;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.details button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.details button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.details button:hover span {
+  padding-right: 25px;
+  background-color: white;
+  color: #f4511e;
+}
+
+.details button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
